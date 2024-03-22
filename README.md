@@ -9,3 +9,5 @@ PIN Validation: Entered PIN is checked against a predefined code; a green LED li
 Utilizes STM32CubeIDE and C programming language and STMicroelectronics' HAL for peripheral initialization and control.
 ### Hardware Components: 
 STMicroelectronics NUCLEO-L452RE-P board with STM32L452RE microcontroller, matrix keypad, 7-segment display, and an onboard LED for status indication.
+
+The main project is in the director called proiect1 and the rest of the directors represent the steps I made working with the NUCLEO-L452RE-P development board, starting from learning the structure of the board to experimenting with every component of the project and finally being able to connect them together.
