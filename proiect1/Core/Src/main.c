@@ -267,10 +267,9 @@ int main(void)
   while (1)
   {
 
-	  /* Așteaptă până când este apăsată o tastă */
+	  // Așteaptă până când este apăsată o tastă 
 	   key = read_keypad();
 
-	   /* Dacă o tastă a fost apăsată și nu am ajuns la lungimea maximă a PIN-ului */
 	   if (key != 0xFF) // Verifică dacă a fost citită o valoare validă
 	       {
 	           if (pinIndex < PIN_LENGTH)
@@ -289,7 +288,7 @@ int main(void)
 	       }
 	       else
 	       {
-	           SevenSegment_Update(0x00); // Curăță display-ul dacă nu este apăsată nicio tastă
+	           SevenSegment_Update(0x00); 
 	       }
 
     /* USER CODE END WHILE */
