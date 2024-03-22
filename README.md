@@ -1,10 +1,13 @@
-Lock System with Microcontroller March 2024
+# Lock System with Microcontroller
 
-• Developed a secure lock system based on a NUCLEO-L452RE-P board, designed to validate entry through a PIN
-code input on a keypad, with visual feedback on a 7-segment display and LED indication for access status.
-• Implemented using STM32CubeIDE and the C programming language, the project leverages the Hardware
-Abstraction Layer (HAL) provided by STMicroelectronics to manage hardware peripherals efficiently.
-• Introduced routines for debounce-handled keypad reading, dynamic 7-segment display updates for each pressed key, and
-a PIN verification process that compares the entered code against a predefined correct sequence, triggering the status
-LED accordingly.
+## Project Overview: 
+A lock system using a NUCLEO-L452RE-P development board, featuring PIN code entry through a keypad and visual feedback via a 7-segment display. The system uses an LED as a status indicator for PIN validation.
+## Key Features:
+PIN Entry Interface: 4x3 matrix keypad for 4-digit PIN input, with each digit displayed on a 7-segment display for visual confirmation.
+PIN Validation: Entered PIN is checked against a predefined code; a green LED lights up to indicate correct entry and system unlock.
+### Software Development: Utilizes STM32CubeIDE and C programming language and STMicroelectronics' HAL for peripheral initialization and control.
+### Hardware Components: STMicroelectronics NUCLEO-L452RE-P board with STM32L452RE microcontroller, matrix keypad, 7-segment display, and an onboard LED for status indication.
 
+These are the projects that I created in order to study how every component of the projects works so in the 
+end I knew how to connect them. I experimented with console outputs then with UART protocol verifying the 
+functionality of the keypad, following the 
